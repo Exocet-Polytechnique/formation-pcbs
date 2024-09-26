@@ -7,7 +7,7 @@ site](https://www.kicad.org/)
 
 La branche `instructions` de ce dépôt contient toutes les instructions à suivre pour faire votre
 premier PCB. Elles seront aussi expliquées pendant les formations avec Eliot. Une branche `solution`
-sera aussi disponible sous peu et contiendra le projet complété.
+sera disponible sous peu et contiendra le projet complété.
 
 Pour suivre les étapes et recevoir du feedback d'Eliot ou Guillaume, vous devez faire votre propre
 branche avec votre nom (préférablement tout en minuscules, ex. `eliot`). Envoyez-nous un message
