@@ -42,7 +42,7 @@ qu'on cherche!
 ## Libraires
 Les librairies sont une manière d'organiser les symboles ou empreintes fréquemment utilisées à
 travers un ou plusieurs PCBs. Ces dernières peuvent être globales pour être réutilisées à travers
-plusieurs projets, tandis que d'autre sont spécifiques au projet. Dans notre cas, nous auront une
+plusieurs projets, tandis que d'autres sont spécifiques au projet. Dans notre cas, nous auront une
 librairie globale pour les composantes qui seront utilisés par plusieurs PCBs, mais il se peut que
 certains symboles ne soient nécessaires que pour un projet. Dans le cadre de la formation, seule une
 librairie spécifique au projet sera nécessaire.
