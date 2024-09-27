@@ -76,6 +76,8 @@ changée, notamment si l'on veut faire passer plus de courant. Il est préférab
 angles droits lorsque l'on dessine les traces.
 
 ## Plan (*Plane*)
+Un plan est une zone de matériau conducteur qui prend toute la largeur disponible sur une couche du PCB. Cela permet de lier plusieurs composantes d'un même *netclass* sans avoir à manuellement placer chaque trace. Pour connecter d'autres *netclass*, il est toujours possible de faire passer d'autres traces au travers d'un plan. Les plans permettent de mieux redistribuer la chaleur sur le PCB, d'avoir un voltage plus stable et moins d'interférences. Nous utiliserons souvent les plans de masse (*ground planes*) qu'il est commun de retrouver sur un PCB.
+
 ## Empreinte (*Footprint*)
 ## Via
 Un via est un trou passant au travers d'une ou plusieurs couches isolantes du PCB et dont les parois sont recourvertes de matériau conducteur. Cela permet de connecter les traces de différentes couches conductrices du PCB. Il est possible de changer la taille du via et l'épaisseur des parois conductrices. Il existe trois types de vias:
