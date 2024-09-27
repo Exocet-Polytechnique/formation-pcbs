@@ -83,7 +83,7 @@ Un via est un trou passant au travers d'une ou plusieurs couches isolantes du PC
 - Via borgne (*Blind Via*): Lie une couche extérieure et une ou plusieurs couches intérieures du PCB. Ce via n'est donc pas visible sur l'autre couche extérieure du PCB et doit être sur un PCB à plus de 2 couches.
 - Via enterré (*Buried Via*): Lie deux couches intérieures du PCB. Ce via n'est donc pas visible vu de l'extérieur du PCB et doit être sur un PCB à plus de 2 couches.
 
-Dans le cadre de notre projet, nous n'auront que 2 couches sur nos PCB et n'utiliseront que des vias *through-holes*.
+Dans le cadre de notre projet, nous n'auront que 2 couches sur nos PCB et n'utiliseront que des vias *through-hole*.
 
 ## Pièces assemblées en surface (*Surface Mount*)
 ## Pièces assemblées à travers (*Through-hole*)
