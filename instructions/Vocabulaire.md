@@ -78,6 +78,12 @@ angles droits lorsque l'on dessine les traces.
 ## Plan (*Plane*)
 ## Empreinte (*Footprint*)
 ## Via
+Un via est un trou passant au travers d'une ou plusieurs couches isolantes du PCB et dont les parois sont recourvertes de matériau conducteur. Cela permet de connecter les traces de différentes couches conductrices du PCB. Il est possible de changer la taille du via et l'épaisseur des parois conductrices. Il existe trois types de vias:
+- Via traversant (*Through-Hole Via*): Traverse toutes les couches du PCB.
+- Via borgne (*Blind Via*): Lie une couche extérieure et une ou plusieurs couches intérieures du PCB. Ce via n'est donc pas visible sur l'autre couche extérieure du PCB et doit être sur un PCB à plus de 2 couches.
+- Via enterré (*Buried Via*): Lie deux couches intérieures du PCB. Ce via n'est donc pas visible vu de l'extérieur du PCB et doit être sur un PCB à plus de 2 couches.
+Dans le cadre de notre projet, nous n'auront que 2 couches sur nos PCB et n'utiliseront que des vias *through-holes*.
+
 ## Pièces assemblées en surface (*Surface Mount*)
 ## Pièces assemblées à travers (*Through-hole*)
 # 4. Impression et assemblage
