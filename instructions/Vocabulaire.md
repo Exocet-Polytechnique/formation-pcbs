@@ -25,7 +25,7 @@ permettent même la conception des circuits à l'intérieur même des circutis i
 
 ## Circuit imprimé (*PCB* - *Printed Circuit Board*)
 Un circuit imprimé est une manière compacte de relier plusieurs composants électroniques entre-eux.
-[Image](https://en.wikipedia.org/wiki/Printed_circuit_board#/media/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg)
+![Image](https://en.wikipedia.org/wiki/Printed_circuit_board#/media/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg)
 Le PCB en lui même est composé d'une alternance de couches d'un conducteur (généralement du cuivre)
 et d'un isolant. L'une des étapes de fabrication de ces derniers consiste à enlever le la matière
 conductrice pour isoler des traces. Les traces représentent des "fils" qui permettent de connecter
