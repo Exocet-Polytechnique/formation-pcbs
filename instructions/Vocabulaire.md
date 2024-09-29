@@ -25,7 +25,7 @@ permettent même la conception des circuits à l'intérieur même des circutis i
 
 ## Circuit imprimé (*PCB* - *Printed Circuit Board*)
 Un circuit imprimé est une manière compacte de relier plusieurs composants électroniques entre-eux.
-![Image](https://en.wikipedia.org/wiki/Printed_circuit_board#/media/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg)
+![PCB](img/PCB.jpeg)
 Le PCB en lui même est composé d'une alternance de couches d'un conducteur (généralement du cuivre)
 et d'un isolant. L'une des étapes de fabrication de ces derniers consiste à enlever le la matière
 conductrice pour isoler des traces. Les traces représentent des "fils" qui permettent de connecter
@@ -105,8 +105,12 @@ Dans le cadre de notre projet, nous n'auront que 2 couches sur nos PCB et n'util
 Un componsant que vous devriez connaître, le condensateur accumule les charges et s'oppose aux variations de courant. Dans tous les circuits, il primordial d'ajouter des condensateurs de découplages pour éliminer les fréquences parasites de l'alimentation des circuits. En effet, une fréquence parasite appliquée à un microcontrôleur a des effets aléatoires, allant du non fonctionnement aux erreurs aléatoires. Voir la documentation des puces électroniques pour le dimensionnement. Un condensateur de découplage est un condensateur qui offre un lien direct entre l'alimentation et le GND (ground). En règle générale, il faut au moins un condensateur de type surface mount en céramique de l'ordre de .1uF faisant le lien entre les pins d'alimentation et de GND de tout circuit logique, placé le plus près possible de la composante logique et un plus gros condensateur (~10uF) qui peut être placé plus loin
 ## Diode
 Une composante qui laisse passer aisément le courant dans une direction mais qui offre beaucoup plus de résistance dans l'autre direction. Plusieurs types de diode existent (DEL, Zenner, etc.), chacune avec un rôle particulier. 
+![diodes](img/Types-of-Diodes-with-Symbol.jpg)
+## Bille de ferrite (Ferrite Bead)
+Utilisé pour l'alimentation de microcontrôleurs. Si on doit faire un board avec l'alimentation direct d'une puce microcontrôleur, faire des recherches et contacter d'autres ST/personnes plus expérimeentées. 
 ## Transistor
 La base de l'électronique moderne. Se le représenter comme une porte entre deux broches contrôlée par le courant appliqué à une troisième. Permets d'amplifier des signaux, entre autres. 
+![Transistor](img/Transistor.png)
 ## MOSFET
 Un type de transistor, contrôlé cette fois ci par la différence de potentiel entre certaines broches. Se référer aux manuels d'électronique ou aux internets pour plus d'information sur la façon d'implémenter un MOSFET puisque certains calculs sont nécessaire. 
 ## Voltage regulator
