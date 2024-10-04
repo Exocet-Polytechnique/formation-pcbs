@@ -1,3 +1,5 @@
+# Note: la nouvelle branche par défaut est [`main`](https://github.com/Exocet-Polytechnique/formation-pcbs)
+
 # Formation PCBs
 
 Bienvenue à la formation d'Exocet sur la conception de circuits imprimés à l'aide du logiciel
