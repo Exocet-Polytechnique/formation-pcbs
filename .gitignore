@@ -27,3 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Temporary work files
+\#auto_saved_files\#
+~*.lck
