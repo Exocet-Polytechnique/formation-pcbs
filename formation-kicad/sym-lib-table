@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Battery_Gauge")(type "KiCad")(uri "${KIPRJMOD}/Battery_Gauge.kicad_sym")(options "")(descr ""))
+)
