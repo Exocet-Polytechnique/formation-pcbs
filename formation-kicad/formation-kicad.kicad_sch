@@ -1314,7 +1314,7 @@
 		(at 171.45 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ffc342d-2013-4eef-b05f-1a3d44f21711")
+		(uuid "e3e57ed4-786c-4311-a959-cc2fd83d4100")
 	)
 	(junction
 		(at 111.76 92.71)
@@ -1360,7 +1360,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "28f39f18-b850-432e-88b0-bf9cb294b3fa")
+		(uuid "2ae19473-b73b-4741-953d-0dc9ab3ed0a0")
 	)
 	(wire
 		(pts
@@ -1580,7 +1580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 207.01 78.74 0)
 			(effects
 				(font
@@ -1778,7 +1778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 207.01 91.44 0)
 			(effects
 				(font
@@ -2056,7 +2056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
 			(at 207.01 64.77 0)
 			(effects
 				(font
@@ -2120,7 +2120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_Shunt:Milliohm_Shunt_2512"
 			(at 156.972 90.17 90)
 			(effects
 				(font
@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm_ThermalVias"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.602 78.74 90)
 			(effects
 				(font
@@ -2720,16 +2720,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 176.53 88.9 0)
+		(at 176.53 91.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c460dd97-4e71-4190-b476-328de1cc165f")
 		(property "Reference" "J2"
-			(at 179.07 88.8999 0)
+			(at 179.07 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 179.07 91.4399 0)
+			(at 179.07 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,8 +2746,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 88.9 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 88.9 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2765,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 176.53 88.9 0)
+			(at 176.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -2947,7 +2947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.982 78.74 90)
 			(effects
 				(font
@@ -3083,7 +3083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.362 78.74 90)
 			(effects
 				(font
