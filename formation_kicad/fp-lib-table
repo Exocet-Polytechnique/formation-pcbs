@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Resistor_Shunt")(type "KiCad")(uri "${KIPRJMOD}/Resistor_Shunt.pretty")(options "")(descr ""))
+)
